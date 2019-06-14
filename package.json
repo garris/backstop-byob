@@ -1,7 +1,7 @@
 {
-  "name": "backstopjs",
+  "name": "backstop-byob",
   "version": "4.1.8",
-  "description": "BackstopJS: Catch CSS curveballs.",
+  "description": "A BackstopJS fork. Bring your own browser.",
   "bin": {
     "backstop": "./cli/index.js"
   },
