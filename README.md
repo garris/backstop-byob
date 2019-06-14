@@ -3,17 +3,21 @@
 
 # Backstop-BYOB
 
-*This is a fork of BackstopJS. This version uses puppeteer-core which does not automatically download Google Chrome.*
+**This is a fork of BackstopJS. This version uses puppeteer-core which does not automatically download Google Chrome.**
 
 This version works exactly like BackstopJS except you need to explicitly delare a compatible chrome version. e.g. on MacOS your `backstop.json` config file might include a block like this...
 
 ```json
+
 "engineOptions": {
-	"executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+	"executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
 	"ignoreHTTPSErrors": false,
 	"args": ["--no-sandbox", "--disable-setuid-sandbox"]
 }
+
 ```
+
+-----
 
 ![I'm in your webapps -- checkin your screens](http://garris.github.io/BackstopJS/assets/memes/im-in-ur-webapps-checking-ur-screens.jpg)
 
