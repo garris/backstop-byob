@@ -33,9 +33,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/garris/backstopjs.git"
+    "url": "https://github.com/garris/backstop-byob.git"
   },
-  "author": "https://github.com/garris/BackstopJS/graphs/contributors",
+  "author": "https://github.com/garris/backstop-byob/graphs/contributors",
   "license": "MIT",
   "main": "core/runner.js",
   "devDependencies": {
