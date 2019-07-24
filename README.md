@@ -23,6 +23,9 @@ This version works exactly like BackstopJS except you need to explicitly delare 
 
 BackstopJS automates visual regression testing of your responsive web UI by comparing DOM screenshots over time.
 
+## Breaking News
+**EmberJS users** -- check out our ember-backstop test helper! https://github.com/garris/ember-backstop
+
 ## Backstop Features
 
 - In-browser reporting UI with...
